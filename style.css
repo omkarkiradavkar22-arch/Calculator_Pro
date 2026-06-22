@@ -75,19 +75,19 @@ button{
 }
 
 
-/* Change this: */
-body.light.calculator { /* Wrong - space between body.light and .calculator */
+
+body.light.calculator { 
     background: white;
     color: black;
 }
 
-/* To this: */
-body.light .calculator { /* Correct - descendant selector */
+
+body.light .calculator { 
     background: white;
     color: black;
 }
 
-/* Add these improvements: */
+
 .calculator {
     box-shadow: 0 20px 60px rgba(0,0,0,0.3);
     transition: all 0.3s ease;
