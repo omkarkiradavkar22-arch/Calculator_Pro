@@ -126,7 +126,7 @@ body.light #display {
 .mode:hover {
     transform: scale(1.05);
 }
-/* Add color scheme */
+
 .buttons button:not(.equal) {
     background: #333;
     color: white;
